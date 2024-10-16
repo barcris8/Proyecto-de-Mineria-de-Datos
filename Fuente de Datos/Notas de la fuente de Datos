@@ -1,0 +1,29 @@
+Name	                  Type	      Size	      Description
+ID	                    Int16	      2	          El código de identificación único para cada cliente
+Year_Birth	            Int16	      2	          El año de nacimiento de un cliente
+Education	              String	    10	        El nivel de educación que completó un cliente
+Marital_Status	        String	    8	          Estado del matrimonio
+Income	                Double	    8	          Ingresos Anuales
+Kidhome	                Byte      	1	          Niños menores de 13 años en el hogar del Cliente
+Teenhome	              Byte	      1	          Niños entre 13 y 19 años en el hogar del Cliente
+Dt_Customer	            Date	      10	        Fecha de inscripción del cliente
+Recency	                Byte	      1	          # de días desde la última compra
+MntWines	              Int16	      2	          Cantidad en dólares de vinos comprados en los últimos 2 años
+MntFruits	              Byte	      1	          Cantidad en dólares de frutas compradas en los últimos 2 años
+MntMeatProducts	        Int16	      2	          Cantidad en dólares de productos cárnicos comprados en los últimos 2 años
+MntFishProducts	        Int16	      2	          Cantidad en dólares de productos pesqueros comprados en los últimos 2 años
+MntSweetProducts	      Int16	      2	          Cantidad en dólares de productos dulces comprados en los últimos 2 años
+MntGoldProds	          Int16	      2	          Cantidad en dólares de productos Gold comprados en los últimos 2 años
+NumDealsPurchases	      Byte	      1	          # de compras realizadas con descuento
+NumWebPurchases	        Byte	      1	          # de compras realizadas a través del sitio web de la empresa
+NumCatalogPurchases	    Byte	      1	          # de compras realizadas usando el catálogo
+NumStorePurchases	      Byte	      1	          # de compras realizadas directamente en la tienda
+NumWebVisitsMonth	      Byte	      1	          # de visitas realizadas a través del sitio web de la empresa
+AcceptedCmp1	          Byte	      1	          1 si el cliente aceptó la oferta en la 1.ª campaña, 0 en caso contrario
+AcceptedCmp2	          Byte	      1	          1 si el cliente aceptó la oferta en la 2.ª campaña, 0 en caso contrario
+AcceptedCmp3	          Byte	      1	          1 si el cliente aceptó la oferta en la 3.ª campaña, 0 en caso contrario
+AcceptedCmp4	          Byte	      1	          1 si el cliente aceptó la oferta en la 4.ª campaña, 0 en caso contrario
+AcceptedCmp5	          Byte	      1	          1 si el cliente aceptó la oferta en la 5.ª campaña, 0 en caso contrario
+Response	              Byte	      1	          1 si el cliente aceptó la oferta en la última campaña, 0 en caso contrario
+Complain	              Byte	      1	          1 si el cliente se quejó en los últimos 2 años, 0 en caso contrario
+Country	                String	    3	          Ubicación del cliente
